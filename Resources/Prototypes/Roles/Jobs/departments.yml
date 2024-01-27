@@ -1,0 +1,124 @@
+- type: department
+  id: Cargo
+  description: department-Cargo-description
+  color: "#A46106"
+  sort: 0
+  roles:
+  - CargoTechnician
+  - Quartermaster
+  - SalvageSpecialist
+
+- type: department
+  id: Civilian
+  description: department-Civilian-description
+  color: "#9FED58"
+  weight: -10
+  roles:
+  - Bartender
+  - Borg
+  - Botanist
+  - Boxer
+  - Chaplain
+  - Chef
+  - Clown
+  - HeadOfPersonnel
+  - Janitor
+  - Lawyer
+  - Librarian
+  - Mime
+  - Musician
+  - Passenger
+  - Reporter
+  - Zookeeper
+  - ServiceWorker
+
+- type: department
+  id: Command
+  sort: 1
+  description: department-Command-description
+  color: "#052EED"
+  roles:
+  - Captain
+  - IAA # Corvax-IAA
+  - CentralCommandOfficial
+  - ChiefEngineer
+  - ChiefMedicalOfficer
+  - HeadOfPersonnel
+  - HeadOfSecurity
+  - ResearchDirector
+  - Quartermaster
+  - BlueShield
+  primary: false
+  weight: 100
+
+- type: department
+  id: Engineering
+  sort: 0
+  description: department-Engineering-description
+  color: "#EFB341"
+  roles:
+  - AtmosphericTechnician
+  - ChiefEngineer
+  - StationEngineer
+  - TechnicalAssistant
+
+- type: department
+  id: Medical
+  sort: 0
+  description: department-Medical-description
+  color: "#52B4E9"
+  roles:
+  - Chemist
+  - ChiefMedicalOfficer
+  - MedicalDoctor
+  - MedicalIntern
+  - Psychologist
+  - Paramedic
+
+- type: department
+  id: Security
+  sort: 0
+  description: department-Security-description
+  color: "#DE3A3A"
+  weight: 20
+  roles:
+  - HeadOfSecurity
+  - SecurityCadet
+  - SecurityOfficer
+  - Detective
+  - Warden
+  - Brigmedic
+  - SecurityPilot
+
+- type: department
+  id: Science
+  sort: 0
+  description: department-Science-description
+  color: "#D381C9"
+  roles:
+  - ResearchDirector
+  - Scientist
+  - ResearchAssistant
+
+- type: department
+  id: Specific
+  sort: 0
+  description: department-Specific-description
+  color: "#9FED58"
+  weight: 10
+  roles:
+  - Boxer
+  - Reporter
+  - Zookeeper
+  - Psychologist
+  primary: false
+
+- type: department
+  id: GhostRoles
+  sort: 0
+  description: Ghost roles
+  color: "#A9A9A9"
+  roles:
+  - GhostRole
+  primary: false
+  weight: -100

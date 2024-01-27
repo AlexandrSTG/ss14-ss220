@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/commit/5d5f83d79198b98e02fe0a778e1c4f59fcd80223, nukefestive by Alekshhh (Github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "nuclearbomb_deployed"
+    },
+    {
+      "name": "nukefestive",
+      "delays": [
+        [
+          0.25,
+          0.25
+        ]
+      ]
+    },
+    {
+      "name": "nuclearbomb_timing",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "nuclearbomb_exploding",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "nuclearbomb_base"
+    },
+    {
+      "name": "nuclearbombc",
+      "delays": [
+        [
+          1,
+          0.3,
+          0.3,
+		  0.3
+        ]
+      ]
+    }
+  ]
+}

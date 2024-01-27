@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "copyright": "by MIXnikita for SS220",
+  "license": "EULA/CLA with a hosting restriction, full text: https://raw.githubusercontent.com/SerbiaStrong-220/space-station-14/master/CLA.txt",
+  "states": [
+    {
+        "name": "noticeboard",
+        "directions": 4
+    },
+    {
+        "name": "notice-0"
+    },
+    {
+        "name": "notice-1",
+        "directions": 4
+    },
+    {
+        "name": "notice-2",
+        "directions": 4
+    },
+    {
+        "name": "notice-3",
+        "directions": 4
+    },
+    {
+        "name": "notice-4",
+        "directions": 4
+    },
+    {
+        "name": "notice-5",
+        "directions": 4
+    }
+  ]
+}
