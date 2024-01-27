@@ -1,0 +1,32 @@
+- type: job
+  id: Lawyer
+  name: job-name-lawyer
+  description: job-description-lawyer
+  playTimeTracker: JobLawyer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 72000 # SS220-RoleTime
+  startingGear: LawyerGear
+  setPreference: true # SS220 return-of-the-lawyer
+  icon: "JobIconLawyer"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Brig
+  - Maintenance
+
+- type: startingGear
+  id: LawyerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsLaceup
+    id: LawyerPDA
+    ears: ClothingHeadsetSecurity
+    # TODO add copy of space law
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
